@@ -13,7 +13,10 @@ body {
 }
 
 .top-navigation {
-backgroung-color: #ffffff;
+background: #fff;
+position:fixed;
+width: 100%;
+z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -21,6 +24,14 @@ width: 900px;
 height: 100px;
 margin:0 auto;
 padding: 0px 15px;
+}
+
+.middle {
+width: 900px;
+height: 500px;
+margin:0 auto;
+padding: 0px 15px;
+border-bottom:thin solid #cccccc;
 }
 
 
@@ -119,3 +130,24 @@ button a {
 	text-decoration:none;
 }
 
+.middle > h2 {
+		color: #1d1e21;
+	text-align: center;
+	margin: 100px 0px 50px 0px;
+	font-size:50px;
+	}
+
+.middle .devices {
+	display:block;
+	margin: 0 auto;
+	}
+	
+.middle .devices > li {
+	float:left;
+	width: 20%;
+margin:0 5%;
+text-align:center;
+list-style-type:none;
+color: #1d1e21;
+font-size:30px;
+}
