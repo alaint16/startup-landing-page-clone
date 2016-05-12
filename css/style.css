@@ -151,3 +151,22 @@ list-style-type:none;
 color: #1d1e21;
 font-size:30px;
 }
+
+	
+.part_footer{
+width: 900px;
+height: 100px;
+margin:0 auto;
+padding: 0px 15px;
+	}	
+	
+.icons > li {
+	display:inline-block;
+	list-style-type:none;
+	}	
+
+.part_footer > h5 p {
+	text-align:center;
+	font-size:12px;
+	}
+	
